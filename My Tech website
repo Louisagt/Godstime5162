@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TechFix - Mobile Repairs & Sales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .services, .contact {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .service-box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .service-box:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: 0 auto;
+        }
+        .contact input, .contact textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact button {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to TechFix</h1>
+    <p>Your one-stop solution for mobile repairs and tech sales</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#about">About Us</a>
+</nav>
+
+<div class="hero">
+    <h1>Fixing Your Tech, Fast & Reliable</h1>
+    <p>Get your mobile phones repaired or buy the latest gadgets at the best prices.</p>
+</div>
+
+<section id="services" class="services">
+    <div class="service-box">
+        <h3>Mobile Repairs</h3>
+        <p>From screen repairs to battery replacements, we've got you covered.</p>
+    </div>
+    <div class="service-box">
+        <h3>Phone Sales</h3>
+        <p>Get the latest phones at competitive prices. Visit our store now!</p>
+    </div>
+    <div class="service-box">
+        <h3>Accessories</h3>
+        <p>Shop for top-quality accessories including cases, chargers, and more.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 TechFix. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
